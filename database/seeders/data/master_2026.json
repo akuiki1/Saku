@@ -1,0 +1,452 @@
+{
+  "tahun": 2026,
+  "programs": [
+    {
+      "kode": "1.03.03",
+      "nama": "PROGRAM PENGELOLAAN DAN PENGEMBANGAN SISTEM PENYEDIAAN AIR MINUM"
+    },
+    {
+      "kode": "1.03.04",
+      "nama": "PROGRAM PENGEMBANGAN SISTEM DAN PENGELOLAAN PERSAMPAHAN REGIONAL"
+    },
+    {
+      "kode": "1.03.05",
+      "nama": "PROGRAM PENGELOLAAN DAN PENGEMBANGAN SISTEM AIR LIMBAH"
+    },
+    {
+      "kode": "1.03.06",
+      "nama": "PROGRAM PENGELOLAAN DAN PENGEMBANGAN SISTEM DRAINASE"
+    },
+    {
+      "kode": "1.03.08",
+      "nama": "PROGRAM PENATAAN BANGUNAN GEDUNG"
+    },
+    {
+      "kode": "1.03.09",
+      "nama": "PROGRAM PENATAAN BANGUNAN DAN LINGKUNGANNYA"
+    }
+  ],
+  "kegiatan": [
+    {
+      "kode": "1.03.03.2.01",
+      "nama": "Pengelolaan dan Pengembangan Sistem Penyediaan Air Minum (SPAM) di Daerah Kabupaten/Kota",
+      "program_kode": "1.03.03"
+    },
+    {
+      "kode": "1.03.04.2.01",
+      "nama": "Pengembangan Sistem dan Pengelolaan Persampahan di Daerah Kabupaten/Kota",
+      "program_kode": "1.03.04"
+    },
+    {
+      "kode": "1.03.05.2.01",
+      "nama": "Pengelolaan dan Pengembangan Sistem Air Limbah Domestik dalam Daerah Kabupaten/Kota",
+      "program_kode": "1.03.05"
+    },
+    {
+      "kode": "1.03.06.2.01",
+      "nama": "Pengelolaan dan Pengembangan Sistem Drainase yang Terhubung Langsung dengan Sungai dalam Daerah Kabupaten/Kota",
+      "program_kode": "1.03.06"
+    },
+    {
+      "kode": "1.03.08.2.01",
+      "nama": "Penyelenggaraan Bangunan Gedung di Wilayah Daerah Kabupaten/Kota, Pemberian Izin Mendirikan Bangunan (IMB) dan Sertifikat Laik Fungsi Bangunan Gedung",
+      "program_kode": "1.03.08"
+    },
+    {
+      "kode": "1.03.09.2.01",
+      "nama": "Penyelenggaraan Penataan Bangunan dan Lingkungannya di Daerah Kabupaten/Kota",
+      "program_kode": "1.03.09"
+    }
+  ],
+  "sub_kegiatan": [
+    {
+      "kode": "1.03.03.2.01.0025",
+      "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Penyediaan Air Minum (SPAM)",
+      "kegiatan_kode": "1.03.03.2.01",
+      "pptk_nama": "FAZARITA HAYATI. S.T"
+    },
+    {
+      "kode": "1.03.03.2.01.0028",
+      "nama": "Pembangunan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan",
+      "kegiatan_kode": "1.03.03.2.01",
+      "pptk_nama": "Ir. MUHAMMAD SADIQUL IMAN, S.T."
+    },
+    {
+      "kode": "1.03.04.2.01.0015",
+      "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Pengelolaan Persampahan",
+      "kegiatan_kode": "1.03.04.2.01",
+      "pptk_nama": "Ir. MUHAMMAD SADIQUL IMAN, S.T."
+    },
+    {
+      "kode": "1.03.04.2.01.0017",
+      "nama": "Penyediaan Sarana Pendukung TPA/TPST/SPA/TPS3R/TPS",
+      "kegiatan_kode": "1.03.04.2.01",
+      "pptk_nama": "Ir. MUHAMMAD SADIQUL IMAN, S.T."
+    },
+    {
+      "kode": "1.03.05.2.01.0019",
+      "nama": "Optimalisasi Instalasi Pengolahan Lumpur Tinja (IPLT)",
+      "kegiatan_kode": "1.03.05.2.01",
+      "pptk_nama": "Ir. MUHAMMAD SADIQUL IMAN, S.T."
+    },
+    {
+      "kode": "1.03.05.2.01.0033",
+      "nama": "Penyediaan Jasa Penyedotan Lumpur Tinja",
+      "kegiatan_kode": "1.03.05.2.01",
+      "pptk_nama": "Ir. MUHAMMAD SADIQUL IMAN, S.T."
+    },
+    {
+      "kode": "1.03.05.2.01.0040",
+      "nama": "Pembinaan dan Pemberdayaan Masyarakat dalam Pengembangan Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+      "kegiatan_kode": "1.03.05.2.01",
+      "pptk_nama": "FAZARITA HAYATI. S.T"
+    },
+    {
+      "kode": "1.03.05.2.01.0045",
+      "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+      "kegiatan_kode": "1.03.05.2.01",
+      "pptk_nama": "FAZARITA HAYATI. S.T"
+    },
+    {
+      "kode": "1.03.06.2.01.0024",
+      "nama": "Peningkatan Sistem Drainase Perkotaan",
+      "kegiatan_kode": "1.03.06.2.01",
+      "pptk_nama": "M. FAUZI, A.Md."
+    },
+    {
+      "kode": "1.03.06.2.01.0031",
+      "nama": "Operasi dan Pemeliharaan Sistem Drainase Perkotaan",
+      "kegiatan_kode": "1.03.06.2.01",
+      "pptk_nama": "FAZARITA HAYATI. S.T"
+    },
+    {
+      "kode": "1.03.08.2.01.0021",
+      "nama": "Pembangunan, Pemanfaatan, Pelestariaan dan Pembongkaran Bangunan Gedung untuk Kepentingan Strategis Daerah Kabupaten/Kota",
+      "kegiatan_kode": "1.03.08.2.01",
+      "pptk_nama": "MUHAMMAD IHSAN SAPUTRA, S.T."
+    },
+    {
+      "kode": "1.03.08.2.01.0023",
+      "nama": "Penyelenggaraan Penerbitan Persetujuan Bangunan Gedung (PBG), Sertifikat Laik Fungsi (SLF), Surat Bukti Kepemilikan Bangunan Gedung (SBKBG), Rencana Teknis Pembongkaran Bangunan Gedung (RTB), Tim Profesi Ahli (TPA), Tim Penilai Teknis (TPT), Penilik, dan Pendataan Bangunan Gedung melalui SIMBG",
+      "kegiatan_kode": "1.03.08.2.01",
+      "pptk_nama": "MUHAMMAD IHSAN SAPUTRA, S.T."
+    },
+    {
+      "kode": "1.03.09.2.01.0011",
+      "nama": "Penataan Bangunan dan Lingkungan di Daerah Kabupaten/Kota",
+      "kegiatan_kode": "1.03.09.2.01",
+      "pptk_nama": "MUHAMMAD IHSAN SAPUTRA, S.T."
+    }
+  ],
+  "pegawai": [
+    {
+      "nama": "FAZARITA HAYATI. S.T",
+      "nip": "19900706 201503 2 002",
+      "no_rekening": "2000489932"
+    },
+    {
+      "nama": "Ir. MUHAMMAD SADIQUL IMAN, S.T.",
+      "nip": "19891124 201903 1 012",
+      "no_rekening": "2000492232"
+    },
+    {
+      "nama": "M. FAUZI, A.Md.",
+      "nip": "19740526 199903 1 005",
+      "no_rekening": "0020328039544"
+    },
+    {
+      "nama": "MUHAMMAD IHSAN SAPUTRA, S.T.",
+      "nip": "19890526 201503 1 003",
+      "no_rekening": "2000489967"
+    },
+    {
+      "nama": "H. SYAHIDIN, ST, MT",
+      "nip": "19681225 199703 1 009",
+      "no_rekening": null
+    },
+    {
+      "nama": "SUPRANOTO, ST",
+      "nip": "19760514 199903 1 010",
+      "no_rekening": null
+    },
+    {
+      "nama": "ARIEF RAHMAN HAKIM, ST",
+      "nip": "19840127 200803 1 001",
+      "no_rekening": null
+    },
+    {
+      "nama": "H. MAHYUDI, S.ST",
+      "nip": "19700329 199303 1 002",
+      "no_rekening": null
+    },
+    {
+      "nama": "MUHAMMAD TEDY HIDAYAT, ST",
+      "nip": "19860727 200903 1 003",
+      "no_rekening": null
+    },
+    {
+      "nama": "FAZARITA HAYATI, ST",
+      "nip": "19900706 201503 2 002",
+      "no_rekening": null
+    },
+    {
+      "nama": "ELFHA YUNIA RACHMAN, ST",
+      "nip": "19780612 201001 1 013",
+      "no_rekening": null
+    },
+    {
+      "nama": "ARIE PUTRA ASTAMAN, ST",
+      "nip": "19861217 201503 1 003",
+      "no_rekening": null
+    },
+    {
+      "nama": "DARMADI, A.Md",
+      "nip": "19720331 200604 1 014",
+      "no_rekening": null
+    },
+    {
+      "nama": "MUHAMMAD IHSAN SAPUTRA, ST",
+      "nip": "19890526 201503 1 003",
+      "no_rekening": null
+    },
+    {
+      "nama": "NUR AGUSTIN ROSYARINA, ST",
+      "nip": "19850810 200903 2 003",
+      "no_rekening": null
+    },
+    {
+      "nama": "ANISA SAFARINA, ST",
+      "nip": "19890904 201903 2 014",
+      "no_rekening": null
+    },
+    {
+      "nama": "SAJALI, ST",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "ERSYA BAZANUARDI, ST",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "MUHAMMAD YUDA ISLAMI, ST",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "JUNIOR ANDERSEON SALU, A. Md",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "Ir. MUHAMMAD SADIQUL IMAN, ST",
+      "nip": "19891124 201903 1 012",
+      "no_rekening": null
+    },
+    {
+      "nama": "M. FAUZI, ST",
+      "nip": "19740526 199903 1 005",
+      "no_rekening": null
+    },
+    {
+      "nama": "AKHMAD HAFIZURAHMAN, ST",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "RIHMAYANA, S.Ars",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "NADELA SAPUTRI, A.Md, Kes",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "DIANSYAH, A. Md",
+      "nip": "19691101 199203 1 013",
+      "no_rekening": null
+    },
+    {
+      "nama": "ARDIANSYAH, A. Md",
+      "nip": "19720403 199303 1 005",
+      "no_rekening": null
+    },
+    {
+      "nama": "AGUSTINA, A. Md",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "SALMAH",
+      "nip": "197550810 200701 1 023",
+      "no_rekening": null
+    },
+    {
+      "nama": "ERVIN MUHARIVIN, ST",
+      "nip": "19841231 201503 1 005",
+      "no_rekening": null
+    },
+    {
+      "nama": "PIONA RIZAL, ST",
+      "nip": "19860812 201503 1 007",
+      "no_rekening": null
+    },
+    {
+      "nama": "NANANG SULISTIANTO, ST",
+      "nip": "19871020 201503 1 005",
+      "no_rekening": null
+    },
+    {
+      "nama": "AGA DHANY PER ANGIN ANGIN P, ST",
+      "nip": "19900316 201503 1 003",
+      "no_rekening": null
+    },
+    {
+      "nama": "ALISIA ROOSIANA, SE",
+      "nip": "19851206 202012 2 003",
+      "no_rekening": null
+    },
+    {
+      "nama": "ZAINAL ARIFIN, ST",
+      "nip": "19810510 200803 1 002",
+      "no_rekening": null
+    },
+    {
+      "nama": "BUDIN PRILIAWATI AL AFGHANISTIN, ST",
+      "nip": "19870424 201503 2 004",
+      "no_rekening": null
+    },
+    {
+      "nama": "DIDI FAJAR SAPUTRA, SE",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "HERMAN WAHYUDI JUMAH, S. Kom",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "FITRIAN, A.Md",
+      "nip": "19680627 200604 1 007",
+      "no_rekening": null
+    },
+    {
+      "nama": "RACHMATULLAH, ST",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "MUHAMMAD IRFAN RAMADHAN, A. Md",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "JALIHA, A.Md",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "IKA ANGGA ARY SANDY, A.Md",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "MUHAMMAD IQBAL PRAYOGA, ST",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "NOOR AZIZAH MARIATI TANJUNG, SE",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "HERMAWANSYAH, ST",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "Dr.Eng. Ar. AKBAR RAHMAN, ST.MT. IAI",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "Ar. DEDDY ISKANDAR MA'RUF, IAI, AA",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "AGUS ARIADI, A.Md.Kom",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "Ir. Hj. SUNAR WINARNI",
+      "nip": "19660426 199308 2 002",
+      "no_rekening": null
+    },
+    {
+      "nama": "DARKUNI, S.Hut",
+      "nip": "19730131 200501 1 007",
+      "no_rekening": null
+    },
+    {
+      "nama": "ZAINAL ARIFIN, A. Md",
+      "nip": "19950927 202421 1 009",
+      "no_rekening": null
+    },
+    {
+      "nama": "MUHAMMAD AMRULLAH, S.Kom",
+      "nip": "19950616 202321 1 015",
+      "no_rekening": null
+    },
+    {
+      "nama": "ANDI SAFARIANSYAH, ST, M.Eng",
+      "nip": "19801228 200604 1 003",
+      "no_rekening": null
+    },
+    {
+      "nama": "M RIZKI SYANDANA, A.Md.Kom",
+      "nip": null,
+      "no_rekening": null
+    },
+    {
+      "nama": "ELFHA YUNIA RACHMAN, S.T.",
+      "nip": "19780612 201001 1 013",
+      "no_rekening": null
+    },
+    {
+      "nama": "DARMADI, A.Md.",
+      "nip": "19720331 200604 1 014",
+      "no_rekening": null
+    }
+  ],
+  "pejabat": [
+    {
+      "peran": "kpa",
+      "pegawai_nama": "ELFHA YUNIA RACHMAN, S.T."
+    },
+    {
+      "peran": "bendahara_pembantu",
+      "pegawai_nama": "DARMADI, A.Md."
+    }
+  ],
+  "kode_rekening": [
+    {
+      "kode": "5.1.02.01.01.0052",
+      "uraian": "Belanja Makanan dan Minuman Rapat"
+    },
+    {
+      "kode": "5.1.02.01.001.00004",
+      "uraian": "Belanja Bahan-Bahan Bakar dan Pelumas"
+    },
+    {
+      "kode": "5.2.04.02.007.00001",
+      "uraian": "Belanja Modal Bangunan Pembawa Air Kotor"
+    }
+  ]
+}
