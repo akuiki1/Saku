@@ -17,6 +17,10 @@ class PdfKwitansi
 
     public static function html(Kwitansi $kwitansi): string
     {
+        // Jamin relasi ter-load dalam satu batch. loadMissing() no-op bila sudah
+        // di-set (mis. command sample), jadi tidak menambah query di kasus itu.
+        $kwitansi->loadMissing(['items', 'pajak']);
+
         return view('pdf.kwitansi', ['k' => $kwitansi])->render();
     }
 
