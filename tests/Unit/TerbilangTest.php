@@ -4,13 +4,12 @@ namespace Tests\Unit;
 
 use App\Services\Terbilang;
 use Illuminate\Support\Carbon;
+use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
 class TerbilangTest extends TestCase
 {
-    /**
-     * @dataProvider rupiahProvider
-     */
+    #[DataProvider('rupiahProvider')]
     public function test_rupiah(int $nominal, string $harapan): void
     {
         $this->assertSame($harapan, Terbilang::rupiah($nominal));

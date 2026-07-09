@@ -5,6 +5,8 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/app/mpdf-temp
+/storage/app/sample
 /vendor
 .env
 .env.backup
