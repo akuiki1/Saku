@@ -3,6 +3,7 @@
 namespace App\Filament\Resources\KwitansiGu;
 
 use App\Enums\JenisBerkas;
+use App\Enums\SumberBerkas;
 use App\Filament\Resources\KwitansiGu\Pages\CreateKwitansiGu;
 use App\Filament\Resources\KwitansiGu\Pages\EditKwitansiGu;
 use App\Filament\Resources\KwitansiGu\Pages\ListKwitansiGu;
@@ -35,6 +36,7 @@ class KwitansiGuResource extends Resource
     {
         return parent::getEloquentQuery()
             ->where('jenis', JenisBerkas::GU->value)
+            ->where('sumber', SumberBerkas::Dibuat->value)
             ->with(['subKegiatan', 'kwitansi']);
     }
 
