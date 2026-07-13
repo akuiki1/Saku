@@ -16,8 +16,8 @@ class TahunAnggaransTable
         return $table
             ->columns([
                 TextColumn::make('tahun')
-                    ->numeric()
-                    ->sortable(),
+                    ->sortable()
+                    ->searchable(),
                 IconColumn::make('is_aktif')
                     ->boolean(),
                 TextColumn::make('keterangan')

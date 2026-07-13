@@ -2,14 +2,26 @@
 
 namespace Tests\Feature;
 
+use App\Filament\Resources\TahunAnggarans\Pages\ListTahunAnggarans;
 use App\Models\User;
 use Database\Seeders\MasterDataSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Livewire\Livewire;
 use Tests\TestCase;
 
 class MasterPanelTest extends TestCase
 {
     use RefreshDatabase;
+
+    public function test_kolom_tahun_tampil_tanpa_pemisah_ribuan(): void
+    {
+        $this->seed(MasterDataSeeder::class);
+        $this->actingAs(User::factory()->create());
+
+        Livewire::test(ListTahunAnggarans::class)
+            ->assertSee('2026')
+            ->assertDontSee('2.026');
+    }
 
     public function test_master_seeder_mengisi_data_2026(): void
     {
