@@ -4,6 +4,7 @@ namespace App\Filament\Resources\TitipanGu;
 
 use App\Enums\JenisBerkas;
 use App\Enums\SumberBerkas;
+use App\Filament\Resources\KwitansiGu\RelationManagers\ArsipRelationManager;
 use App\Filament\Resources\TitipanGu\Pages\CreateTitipanGu;
 use App\Filament\Resources\TitipanGu\Pages\EditTitipanGu;
 use App\Filament\Resources\TitipanGu\Pages\ListTitipanGu;
@@ -66,6 +67,13 @@ class TitipanGuResource extends Resource
     public static function table(Table $table): Table
     {
         return TitipanGuTable::configure($table);
+    }
+
+    public static function getRelations(): array
+    {
+        return [
+            ArsipRelationManager::class,
+        ];
     }
 
     public static function getPages(): array

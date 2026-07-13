@@ -7,6 +7,7 @@ use App\Enums\SumberBerkas;
 use App\Filament\Resources\KwitansiGu\Pages\CreateKwitansiGu;
 use App\Filament\Resources\KwitansiGu\Pages\EditKwitansiGu;
 use App\Filament\Resources\KwitansiGu\Pages\ListKwitansiGu;
+use App\Filament\Resources\KwitansiGu\RelationManagers\ArsipRelationManager;
 use App\Filament\Resources\KwitansiGu\Schemas\KwitansiGuForm;
 use App\Filament\Resources\KwitansiGu\Tables\KwitansiGuTable;
 use App\Models\Berkas;
@@ -48,6 +49,13 @@ class KwitansiGuResource extends Resource
     public static function table(Table $table): Table
     {
         return KwitansiGuTable::configure($table);
+    }
+
+    public static function getRelations(): array
+    {
+        return [
+            ArsipRelationManager::class,
+        ];
     }
 
     public static function getPages(): array

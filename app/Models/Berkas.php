@@ -7,6 +7,7 @@ use App\Enums\StatusBerkas;
 use App\Enums\SumberBerkas;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Berkas extends Model
@@ -61,5 +62,10 @@ class Berkas extends Model
     public function kwitansi(): HasOne
     {
         return $this->hasOne(Kwitansi::class);
+    }
+
+    public function arsip(): HasMany
+    {
+        return $this->hasMany(BerkasFile::class)->latest();
     }
 }
