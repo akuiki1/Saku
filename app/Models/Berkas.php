@@ -68,4 +68,27 @@ class Berkas extends Model
     {
         return $this->hasMany(BerkasFile::class)->latest();
     }
+
+    public function tahapan(): HasMany
+    {
+        return $this->hasMany(BerkasTahapan::class);
+    }
+
+    /**
+     * Setel kolom status dari tahapan terbaru (berdasarkan tanggal, lalu id).
+     * Bila tidak ada tahapan, kembali ke status default "berjalan".
+     */
+    public function syncStatusDariTahapan(): void
+    {
+        $terbaru = $this->tahapan()
+            ->orderByDesc('tanggal')
+            ->orderByDesc('id')
+            ->first();
+
+        $status = $terbaru?->tahapan->statusBerkas() ?? StatusBerkas::Berjalan;
+
+        if ($this->status !== $status) {
+            $this->update(['status' => $status]);
+        }
+    }
 }

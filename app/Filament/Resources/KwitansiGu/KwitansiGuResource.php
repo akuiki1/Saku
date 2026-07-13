@@ -8,6 +8,7 @@ use App\Filament\Resources\KwitansiGu\Pages\CreateKwitansiGu;
 use App\Filament\Resources\KwitansiGu\Pages\EditKwitansiGu;
 use App\Filament\Resources\KwitansiGu\Pages\ListKwitansiGu;
 use App\Filament\Resources\KwitansiGu\RelationManagers\ArsipRelationManager;
+use App\Filament\Resources\KwitansiGu\RelationManagers\TahapanRelationManager;
 use App\Filament\Resources\KwitansiGu\Schemas\KwitansiGuForm;
 use App\Filament\Resources\KwitansiGu\Tables\KwitansiGuTable;
 use App\Models\Berkas;
@@ -54,6 +55,7 @@ class KwitansiGuResource extends Resource
     public static function getRelations(): array
     {
         return [
+            TahapanRelationManager::class,
             ArsipRelationManager::class,
         ];
     }
